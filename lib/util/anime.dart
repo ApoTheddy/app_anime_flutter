@@ -24,7 +24,6 @@ class Anime {
                 itemCount: snapshot.data.length,
                 itemBuilder: (context, index, pageViewIndex) {
                   Map<String, dynamic> animeRef = snapshot.data[index];
-
                   return GestureDetector(
                     onTap: () {
                       Navigator.push(
